@@ -1,0 +1,35 @@
+{
+    "access-log-file": null,
+    "algo": "cryptonight",
+    "api": {
+        "port": 0,
+        "access-token": null,
+        "worker-id": null,
+        "ipv6": false,
+        "restricted": true
+    },
+    "background": false,
+    "bind": [
+        "0.0.0.0:3115"
+    ],
+    "colors": true,
+    "donate-level": 2,
+    "log-file": null,
+    "mode": "nicehash",
+    "pools": [
+        {
+            "url": "pool.supportxmr.com:5555",
+            "user": "8A6bfT4pxWnceN718hzxjC9Lt3KwXr3Ro8qPTnvBVrCu3Qo1jjues9Ce54ZctP372S8U1rknq3TqhR62bWAh4LX5339wqZv",
+            "pass": "vietnam1",
+            "keepalive": true,
+            "variant": -1,
+            "tls": false,
+            "tls-fingerprint": null
+        }
+    ],
+    "retries": 2,
+    "retry-pause": 1,
+    "syslog": false,
+    "verbose": false,
+    "workers": true
+}
